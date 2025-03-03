@@ -1,10 +1,10 @@
 import React from "react";
-
+import "./AboutMe.css";
 export default function AboutMe() {
     return (
         <div className="aboutme">
         <div className="aboutme-container">
-            <h1>About Me</h1>
+            <h4>About Me</h4>
             <p>
             I am a Frontend Developer with a passion for creating beautiful and
             functional web applications. I have experience in HTML, CSS, JavaScript,
@@ -13,5 +13,6 @@ export default function AboutMe() {
             </p>
         </div>
         </div>
+    
     );
 }
