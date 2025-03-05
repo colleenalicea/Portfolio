@@ -1,9 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function ProjectsBtn() {
-    // return (
-    //     <div className="button-container">
-    //                     <button onClick='{viewProjects}'>View Projects</button>
-    //                 </div>
-    // );
+function ProjectsBtn() {
+    
+    return (
+        <Link to="/projects">
+        <button>
+            View Projects
+        </button>
+        </Link>
+    );
 }
+
+export default ProjectsBtn;

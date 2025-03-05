@@ -5,7 +5,7 @@ import {
   faEnvelope,
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
-
+import ProjectsBtn from "./projectsbtn";
 export default function Header({ img }) {
   return (
     <div className="header">
@@ -29,7 +29,7 @@ export default function Header({ img }) {
             <h2>ALICEA</h2>
           </div>
           <div className="button-container">
-            <button onClick="{viewProjects}">View Projects</button>
+            <ProjectsBtn />
           </div>
         </div>
       </div>
