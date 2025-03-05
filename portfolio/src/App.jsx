@@ -1,4 +1,6 @@
 import React from 'react';
+// import Projects from './components/Projects';
+// import ProjectsBtn from './components/projectsbtn';
 import './App.css';
 import Header from './components/Header';
 // import Page from './components/pageprojects/Page';
@@ -9,9 +11,17 @@ const computerLogo = '/computerlogo.png';
 function App() {
     return (
         <div className="App">
-            <Header onClick='{viewProjects}' icon='{faPhone, faEnvelope, faMapMarkerAlt}' img={computerLogo}   />
+            <Header  icon='{faPhone, faEnvelope, faMapMarkerAlt}' img={computerLogo}   />
             <AboutMe />
-        {/* <Page /> */}
+            {/* <ProjectsBtn/> */}
+            {/* <Router>
+  <Routes>
+    <Route path="/" element={<App />} />
+    <Route path="/projects" element={<Projects
+    Btn />} />
+     </Routes>
+     </Router> */}
+       
           
         </div>
     );
