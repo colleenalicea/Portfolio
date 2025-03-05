@@ -1,10 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPhone,
-  faEnvelope,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ProjectsBtn from "./projectsbtn";
 export default function Header({ img }) {
   return (
@@ -37,22 +33,23 @@ export default function Header({ img }) {
       <div className="container-3">
         <div className="icon-container">
           <div className="phone">
+            <a href="tel:904-438-9277">
             <FontAwesomeIcon icon={faPhone} className="icon-bg" />
+            </a>
           </div>
           <p className="icons-me">904-438-9277</p>
         </div>
         <div className="icon-container">
+          <a href="mailto:aliceacolleen3@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} className="icon-bg" />
+          </a>
           <p className="icons-me">aliceacolleen3@gmail.com</p>
         </div>
         <div className="icon-container">
-          <FontAwesomeIcon icon={faMapMarkerAlt} className="icon-bg" />
-          <p className="icons-me">1024 Hood Ave.Jacksonville,Fl,32254</p>
+         
         </div>
       </div>
-      <hr class="divider">
-        </hr>
-
+      <hr class="divider"></hr>
     </div>
   );
 }
