@@ -33,7 +33,7 @@ export default function Header({ img }) {
       <div className="container-3">
         <div className="icon-container">
           <div className="phone">
-            <a href="tel:904-438-9277">
+            <a href="tel:9044389277">
             <FontAwesomeIcon icon={faPhone} className="icon-bg" />
             </a>
           </div>

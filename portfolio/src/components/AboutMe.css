@@ -1,8 +1,11 @@
 .aboutme-container {
   color: white;
-  margin-top:640px;
+  
 }
-
+.aboutme {
+  padding-top:60px;
+  padding-left: 30px;
+}
 .aboutme-container h4 {
   position: relative;
   padding-left: 21px;
@@ -14,8 +17,8 @@
 
 .aboutme-container h4::before {
   content: "";
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius:5px;
   background-color: #d60d9a;
   position: absolute;
@@ -23,11 +26,13 @@
   align-items: center;
   padding:1px;
   margin-top:10px;
+  gap:5px;
 }
 .aboutme-container p {
   font-size: 20px;
   color: #f8f1f1;
   margin-left: 30px;
   width: 50vw;
+  text-align: justify;
   
 }
