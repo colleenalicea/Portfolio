@@ -261,54 +261,19 @@ h4 {
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
-@media (min-width: 375px)  {
-  .container-1 {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .right {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  .right p {
 
-    margin-right: 0;
-  }
-  .button-container {
-    margin-left: 0;
-  }
-  .container-2 {
-    margin-left: 0;
-  }
-  .icon-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .icon-bg {
-    margin-right: 0;
-  }
-  .icon-container p {
-    margin-bottom: 0;
-  }
-  .icon-container svg {
-    margin-right: 0;
-  }
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-  .projects-title {
-    margin-left: 0;
-  }
-  .skill-section {
-    margin-left: 0;
-  }
-  .skills {
-    margin-left: 0;
-  }
+
+
+.image  {
+  border: 5px solid #f835c7;
+
 }
-@media (min-width:375px) {
+.flex {
+  display:flex;
   
 }
+.padding5 {
+  padding:5px;
+}
+
+
