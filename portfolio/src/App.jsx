@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/Aboutme";
 import Skills from "./components/Skills";
 import Profileimage from "./components/Profileimage";
+import Experience from "./components/Experience";
 const computerLogo = "/computerlogo.png";
 const profileImage = "/profileImage.jpg";
 
@@ -23,6 +24,7 @@ function App() {
         
         <Profileimage img={profileImage} />
       </div>
+        <Experience />
     </div>
   );
 }
