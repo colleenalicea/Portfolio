@@ -11,6 +11,8 @@ import Experience from "./components/Experience";
 const computerLogo = "/computerlogo.png";
 const profileImage = "/profileImage.jpg";
 
+
+
 function App() {
   return (
     <div className="App">
@@ -25,6 +27,7 @@ function App() {
         <Profileimage img={profileImage} />
       </div>
         <Experience />
+         {/* <Projects />  */}
     </div>
   );
 }
