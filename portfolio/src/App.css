@@ -1,16 +1,16 @@
-
 body {
   background-image: linear-gradient(90deg, #760980, #ff66c4);
   margin: 0;
   padding: 0;
 }
 
- h2, h4, h1 {
+h2,
+h4,
+h1 {
   font-style: italic;
-  color:white;
+  color: white;
   font-size: 26px;
 }
-
 
 .App {
   display: flex;
@@ -80,7 +80,6 @@ h3 {
   margin-top: 10px;
 }
 
-
 .btn {
   background: #f9fafa;
   padding: 8px 15px;
@@ -105,7 +104,6 @@ button:hover {
   background: #0056b3;
 }
 
-
 .button-container {
   display: flex;
   justify-content: flex-end;
@@ -113,7 +111,6 @@ button:hover {
   position: relative;
   margin-bottom: 180px;
 }
-
 
 .right {
   display: flex;
@@ -134,7 +131,6 @@ button:hover {
   margin: 0;
   font-style: italic;
 }
-
 
 .icon-container {
   display: flex;
@@ -159,7 +155,6 @@ button:hover {
   border-radius: 10%;
 }
 
-
 .projects-title {
   font-size: 30px;
   color: white;
@@ -179,12 +174,10 @@ button:hover {
   padding-top: 20px;
 }
 
-
 .skill-section {
   text-align: left;
   color: white;
   margin-left: 25px;
-  
 }
 
 .skills {
@@ -199,7 +192,6 @@ button:hover {
   background-color: rgb(228, 49, 162);
   padding: 5px;
   border-radius: 5px;
- 
 }
 
 h4::before {
@@ -214,21 +206,19 @@ h4::before {
   margin: 10px;
 }
 
-
 .image {
   border: 5px solid #f835c7;
 }
-
 
 .flex {
   display: flex;
 }
 
-
 .padding5 {
   padding: 5px;
 }
-li, p {
+li,
+p {
   color: white;
 }
 .banyan {
@@ -242,9 +232,253 @@ li, p {
   font-size: 16px;
   font-style: italic;
   margin-left: 280px;
-  background-color:rgb(247, 86, 191);
-  width:60px;
-  padding:5px;
+  background-color: rgb(247, 86, 191);
+  width: 60px;
+  padding: 5px;
   text-align: center;
-  
+}
+
+/* Global styles */
+body {
+  background-image: linear-gradient(90deg, #760980, #ff66c4);
+  margin: 0;
+  padding: 0;
+}
+
+h3,
+h2,
+h4 {
+  font-style: italic;
+}
+
+/* General container styles */
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+  justify-content: space-between;
+  width: 100vw;
+  max-width: 900px;
+}
+
+.container-3 {
+  gap: 30px;
+}
+
+.container-2 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid #fc38a4;
+  margin: 20px 0;
+}
+
+/* Header styles */
+h3 {
+  font-size: 30px;
+  color: #f50792;
+  padding: 6px;
+  border: 2px solid #f13dac;
+  background-color: black;
+  border-radius: 5px;
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Button styles */
+.btn {
+  background: #f9fafa;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(209, 80, 185);
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  width: 11vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Flex container styles for buttons */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin-bottom: 180px;
+}
+
+/* Right section styles */
+.right {
+  display: flex;
+  gap: 80px;
+  font-weight: bold;
+  width: 70vw;
+  justify-content: space-evenly;
+  font-size: 35px;
+  color: white;
+  background-image: linear-gradient(90deg, rgb(245, 112, 192), #bb278a);
+  padding: 10px;
+  font-family: italic;
+  height: 10vh;
+  margin-left: 80px;
+}
+
+.right p {
+  margin: 0;
+  font-style: italic;
+}
+
+/* Icon container styles */
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  width: 30vw;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.icon-bg {
+  background-color: #f835c7;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.icon-container svg {
+  color: #faf7f7;
+  font-size: 16px;
+  border-radius: 10%;
+}
+
+/* Projects page styles */
+.projects-title {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin-left: 35rem;
+}
+
+.projects-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+/* Skill section styles */
+.skill-section {
+  text-align: left;
+  color: white;
+  margin-left: 25px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  width: 50vw;
+  margin-left: 70px;
+}
+
+.skill {
+  background-color: rgb(228, 49, 162);
+  padding: 5px;
+  border-radius: 5px;
+  width: 10vw;
+}
+
+h4::before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d60d9a;
+  position: absolute;
+  left: 0;
+  padding: 1px;
+  margin: 10px;
+}
+
+/* Image styles */
+.image {
+  border: 5px solid #f835c7;
+}
+
+/* Flex utility */
+.flex {
+  display: flex;
+}
+
+/* Padding utility */
+.padding5 {
+  padding: 5px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.themes {
+  width: 100px;
+  height: 100px;
+}
+.tip {
+  width:100px;
+  height:100px;
+  margin-left:1000px;
+  margin-top: -100px;
 }
