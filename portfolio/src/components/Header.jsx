@@ -1,7 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import ProjectsBtn from "./projectsbtn";
+import ProjectsBtn from "./projectsbtn"; 
+
 export default function Header({ img }) {
   return (
     <div className="header">
