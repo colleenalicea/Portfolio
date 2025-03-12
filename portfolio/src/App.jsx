@@ -1,8 +1,5 @@
 import React from "react";
-
-import "./App.css";
 import Header from "./components/Header";
-
 import AboutMe from "./components/Aboutme";
 import Skills from "./components/Skills";
 import Profileimage from "./components/Profileimage";
@@ -12,6 +9,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const computerLogo = "/computerlogo.png";
 const profileImage = "/profileImage.jpg";
 const stickers = "/stickers.png";
+import "./global.css";
 
 function App() {
   return (

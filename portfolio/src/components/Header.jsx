@@ -13,17 +13,17 @@ export default function Header({ img }) {
 
         <div className="gradient-container">
           <div className="right">
-            <p>Frontend</p>
-            <h3>RESUME</h3>
+            <p className="p">Frontend</p>
+            <h3 className="h3">RESUME</h3>
           </div>
         </div>
       </div>
 
       <div className="flex-container">
         <div className="container-2">
-          <div claasName="name">
-            <h2>COLLEEN </h2>
-            <h2>ALICEA</h2>
+          <div className="name">
+            <h2 className="h2">COLLEEN </h2>
+            <h2 className="h2">ALICEA</h2>
           </div>
           <div className="button-container">
             <ProjectsBtn />
@@ -50,7 +50,7 @@ export default function Header({ img }) {
          
         </div>
       </div>
-      <hr class="divider"></hr>
+      <hr className="divider"></hr>
     </div>
   );
 }

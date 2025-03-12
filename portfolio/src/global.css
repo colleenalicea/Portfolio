@@ -1,0 +1,140 @@
+/* Apply global styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-r from-purple-800 to-pink-400 m-0 p-0;
+  }
+
+  h2,
+  h4,
+  h1 {
+    @apply italic text-white text-[26px];
+  }
+
+  .App {
+    @apply flex flex-col;
+  }
+
+  .header {
+    @apply flex flex-col top-0;
+  }
+
+  .container-1,
+  .container-2,
+  .container-3 {
+    @apply flex justify-center items-center;
+  }
+
+  .container-1 {
+    @apply justify-between w-screen max-w-[900px];
+  }
+
+  .container-3 {
+    @apply gap-8;
+  }
+
+  .container-2 {
+    @apply text-center my-4;
+  }
+
+  .grid-container {
+    @apply grid grid-rows-3 gap-2.5;
+  }
+
+  .grid-item {
+    @apply bg-gray-200 p-5 border border-gray-300;
+  }
+
+  .divider {
+    @apply border-none border-t-2 border-pink-500 my-5;
+  }
+
+  h3 {
+    @apply text-[30px] text-pink-600 p-1.5 border-2 border-pink-500 bg-black rounded-md w-[10vw] h-[5vh] flex items-center justify-center mt-2.5;
+  }
+
+  .btn {
+    @apply bg-gray-50 px-4 py-2 border-none cursor-pointer text-[16px] rounded-md;
+  }
+
+  button {
+    @apply bg-pink-500 text-white rounded-full px-4 py-2 w-[11vw] flex items-center justify-center;
+  }
+
+  button:hover {
+    @apply bg-blue-700;
+  }
+
+  .button-container {
+    @apply flex justify-end items-center relative mb-44;
+  }
+
+  .right {
+    @apply flex gap-20 font-bold w-[70vw] justify-evenly text-[35px] text-white bg-gradient-to-r from-pink-500 to-purple-600 p-2.5 italic h-[10vh] ml-20;
+  }
+
+  .right p {
+    @apply m-0 italic;
+  }
+
+  .icon-container {
+    @apply flex items-center gap-2 text-[16px] w-[30vw] justify-evenly text-white;
+  }
+
+  .icon-bg {
+    @apply bg-pink-500 p-2.5 rounded-full mr-2.5;
+  }
+
+  .icon-container svg {
+    @apply text-white text-[16px] rounded-md;
+  }
+
+  .projects-title {
+    @apply text-[30px] text-white text-center m-0 flex items-center h-[100px] ml-[35rem];
+  }
+
+  .projects-page {
+    @apply flex flex-col items-center h-screen pt-5;
+  }
+
+  .skill-section {
+    @apply text-left text-white ml-6;
+  }
+
+  .skills {
+    @apply grid grid-cols-3 gap-[2px] w-[50vw] ml-[70px];
+  }
+
+  .skill {
+    @apply bg-pink-500 p-1.5 rounded-md;
+  }
+
+  h4::before {
+    content: " ";
+    @apply w-2.5 h-2.5 rounded-full bg-pink-700 absolute left-0 p-0.5 my-2.5;
+  }
+
+  .image {
+    @apply border-4 border-pink-500;
+  }
+
+  .padding5 {
+    @apply p-1.5;
+  }
+
+  li,
+  p {
+    @apply text-white;
+  }
+
+  .banyan {
+    @apply text-white text-[26px] italic ml-2.5;
+  }
+
+  .dates {
+    @apply text-white text-[16px] italic ml-[280px] bg-pink-500 w-[60px] p-1.5 text-center;
+  }
+}

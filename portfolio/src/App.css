@@ -1,4 +1,4 @@
-body {
+/* body {
   background-image: linear-gradient(90deg, #760980, #ff66c4);
   margin: 0;
   padding: 0;
@@ -65,7 +65,7 @@ h1 {
 }
 
 /* Header styles */
-h3 {
+/* h3 {
   font-size: 30px;
   color: #f50792;
   padding: 6px;
@@ -239,7 +239,7 @@ p {
 }
 
 /* Global styles */
-body {
+/* body {
   background-image: linear-gradient(90deg, #760980, #ff66c4);
   margin: 0;
   padding: 0;
@@ -249,10 +249,10 @@ h3,
 h2,
 h4 {
   font-style: italic;
-}
+} */
 
 /* General container styles */
-.App {
+/* .App {
   display: flex;
   flex-direction: column;
 }
@@ -305,7 +305,7 @@ h4 {
 }
 
 /* Header styles */
-h3 {
+/* h3 {
   font-size: 30px;
   color: #f50792;
   padding: 6px;
@@ -318,10 +318,10 @@ h3 {
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-}
+} */
 
 /* Button styles */
-.btn {
+/* .btn {
   background: #f9fafa;
   padding: 8px 15px;
   border: none;
@@ -343,19 +343,19 @@ button {
 
 button:hover {
   background: #0056b3;
-}
+} */ 
 
 /* Flex container styles for buttons */
-.button-container {
+/* .button-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: relative;
   margin-bottom: 180px;
-}
+} */
 
 /* Right section styles */
-.right {
+/* .right {
   display: flex;
   gap: 80px;
   font-weight: bold;
@@ -373,10 +373,10 @@ button:hover {
 .right p {
   margin: 0;
   font-style: italic;
-}
+} */
 
 /* Icon container styles */
-.icon-container {
+/* .icon-container {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -397,10 +397,10 @@ button:hover {
   color: #faf7f7;
   font-size: 16px;
   border-radius: 10%;
-}
+} */
 
 /* Projects page styles */
-.projects-title {
+/* .projects-title {
   font-size: 30px;
   color: white;
   text-align: center;
@@ -417,10 +417,10 @@ button:hover {
   align-items: center;
   height: 100vh;
   padding-top: 20px;
-}
+} */
 
 /* Skill section styles */
-.skill-section {
+/* .skill-section {
   text-align: left;
   color: white;
   margin-left: 25px;
@@ -451,20 +451,20 @@ h4::before {
   left: 0;
   padding: 1px;
   margin: 10px;
-}
+} */
 
 /* Image styles */
-.image {
+/* .image {
   border: 5px solid #f835c7;
-}
+} */
 
 /* Flex utility */
-.flex {
+/* .flex {
   display: flex;
-}
+} */
 
 /* Padding utility */
-.padding5 {
+/* .padding5 {
   padding: 5px;
 }
 .images {
@@ -497,13 +497,13 @@ h4::before {
 }
 
 .icon-containers a {
-  margin: 0 15px;
+  margin: 0 15px; */ 
   /* color: pink; */
-  transition: color 0.3s;
+  /* transition: color 0.3s;
 }
 .icon-containers {
   display: flex;
   margin-right:auto;
-}
+} */
 
 
